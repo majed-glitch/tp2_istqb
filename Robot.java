@@ -12,7 +12,7 @@ public class Robot {
 
     public void avance() {
         switch (this.direction) {
-            case "Nord": this.y++; break;  // Y++ مش X++
+            case "Nord": this.y++; break;  
             case "Est": this.x++; break;
             case "Sud": this.y--; break;
             case "Ouest": this.x--; break;
@@ -28,7 +28,7 @@ public class Robot {
         }
     }
 
-    // Getters & Setters
+   
     public int getX() { return x; }
     public int getY() { return y; }
     public String getDirection() { return direction; }
